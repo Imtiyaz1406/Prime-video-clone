@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.navbar {
+    /* width: 100vw; */
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item {
+    margin: 0px 8px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+
+.navbar-right-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.nav-btn {
+    font-size: 19px;
+    padding: 6px 16px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    border: none;
+}
+
+.search,
+.globe,
+.person {
+    color: white;
+}
+
+.globe1 {
+    display: flex;
+}
+
+.globe1 p {
+    color: white;
+    margin: 5px;
+}
+
+
+/* container 1 starts from here */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child-cont-1 {
+    width: 100vw;
+    background-image: linear-gradient(30deg, rgb(0, 0, 0) 50%, transparent 50%), url(./img/bcg5.jpg);
+    background-size: 100% 100%;
+}
+
+.child-cont-2 {
+    gap: 1rem;
+    width: 40vw;
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.content-heading {
+    color: white;
+    position: relative;
+    top: 0;
+    font-size: 40px;
+}
+
+.content-para {
+    color: white;
+    font-size: 24px;
+
+}
+
+.content-btn {
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: rgb(65, 65, 163);
+    color: white;
+    cursor: pointer;
+}
+
+.content-btn:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(229, 120, 24);
+
+}
+
+/* container 2 */
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-2-child-1 {
+    width: 100vw;
+    background-image: linear-gradient(120deg, transparent 30%, rgb(0, 0, 0) 50%), url(./img/WhatsApp\ Image\ 2023-02-17\ at\ 9.50.55\ AM.jpeg);
+    background-size: 100% 100%;
+}
+
+.cont-2-child-2 {
+    gap: 1rem;
+    /* width: 50vw; */
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+    float: right;
+
+}
+
+.cont-2-content-heading {
+    color: white;
+    position: relative;
+    top: 0;
+    font-size: 40px;
+}
+
+.cont-2-content-para {
+    color: white;
+    font-size: 24px;
+
+}
+
+.cont-2-content-btn {
+    font-size: 23px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(65, 65, 163);
+    color: white;
+    cursor: pointer;
+
+}
+
+.cont-2-content-btn:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(229, 120, 24);
+
+
+}
+
+/* container 3 */
+.container3 {
+    display: flex;
+
+}
+
+.left-side {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.cont-3-heading {
+    font-weight: normal;
+    font-size: 38px;
+    margin: 20px;
+}
+
+.cont-3-para {
+    font-size: 23px;
+    margin: 20px;
+}
+
+.right-side {
+    width: 60vw;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+
+.right-side-imgs {
+    margin: 17px;
+}
+
+/* container 4 */
+.container4 {
+    background: linear-gradient(90deg, rgb(27, 25, 25), rgb(0, 0, 0));
+    display: flex;
+}
+
+.cont-4-left-side {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-4-right-side {
+    width: 50vw;
+}
+
+.cont-4-content {
+    text-align: left;
+    margin: 30px;
+}
+
+.cont-4-heading {
+    font-weight: normal;
+    font-size: 38px;
+    margin: 20px;
+    color: white;
+}
+
+.cont-4-para {
+    color: white;
+    font-size: 23px;
+    margin: 20px;
+}
+
+.cont-4-btn {
+    font-size: 23px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    background-color: rgb(65, 65, 163);
+    color: white;
+    cursor: pointer;
+    cursor: pointer;
+
+
+}
+
+.cont-4-btn:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(229, 120, 24);
+}
+
+/* container 5 */
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(27, 25, 25));
+    color: white;
+}
+
+.cont-5-left {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+.cont-5-heading {
+    font-size: 45px;
+    margin: 10px;
+}
+
+.cont-5-para {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.cont-5-btn {
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px 45px;
+    border-radius: 15px;
+    background-color: rgb(65, 65, 163);
+    color: white;
+    cursor: pointer;
+}
+
+.cont-5-btn:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(229, 120, 24);
+}
+
+.cont-5-right {
+    display: flex;
+    text-align: end;
+}
+
+.cont-5-right-img {
+    width: 307px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    text-align: center;
+    background: linear-gradient(90deg, rgb(40, 37, 37), rgb(27, 25, 25));
+
+    color: white;
+}
+
+.footer-logo {
+    margin-top: 20px;
+}
+
+.footer-contant {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 15px;
+    color: rgb(65, 65, 200);
+}
+
+i {
+    font-size: 16px;
+    color: aqua;
+    font-style: normal;
+}
+
+/* ------- Media Query -------- */
+
+/* ------- Desktop and Laptop ( ABOVE 1024)-------- */
+
+
+/* ------- Tablits and ipads (769 TO 1024)  -------- */
+
+
+/* ------- Mobile Phones   -------- */
+
+@media (max-width:768px) {
+    .content-heading {
+        color: blueviolet;
+       
+    }
+    .child-cont-1 {
+        background-image: linear-gradient(90deg, rgb(0, 0, 0) 50%, transparent 50%), url(./img/bcg5.jpg);
+     
+    }
+   
+/* container 2 */
+    .cont-2-child-1 {
+        background-image: linear-gradient(90deg, transparent 50%, rgb(0, 0, 0) 50%), url(./img/WhatsApp\ Image\ 2023-02-17\ at\ 9.50.55\ AM.jpeg);
+    }
+
+    .cont-2-child-2 {
+        width: 40vw;
+    }
+
+    /* container 3 */
+    .container3 {
+        display: block;
+
+    }
+
+    .left-side {
+        width: 100%;
+        text-align: left;
+    }
+
+    .right-side {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* container 4 */
+    .container4 {
+        background: linear-gradient(90deg, rgb(27, 25, 25), rgb(0, 0, 0));
+        display: block;
+    }
+
+    .cont-4-left-side {
+        width: 100%;
+
+    }
+
+    .cont-4-right-side {
+        width: 100%;
+    }
+    /* container 5 */
+  
+  .cont-5-left {
+        width: 100%;
+       text-align: left;
+       
+    } 
+    
+}
